@@ -10,9 +10,9 @@ A mainnet instance is running at `singles.shock.network/api` with a [frontend](h
 
 Lightning Singles provides two API's, one for posting a request and another for listing "active" requests.
 
-##### POST
+##### SHILL
 
-Post requires `Id:` as a string with a length of 66, `Ip:` as a valid Ip4 or Ip6 address, and `Port:` as an integer. Failing any of these requirements returns a 400: Invalid value(s) detected. 
+This post requires `Id:` as a string with a length of 66, `Ip:` as a valid Ip4 or Ip6 address, and `Port:` as an integer. Failing any of these requirements returns a 400: Invalid value(s) detected. 
 
 Example in Node:
 
@@ -56,7 +56,7 @@ Example from our [React Frontend](https://github.com/shocknet/singles-fe) using 
       .catch(error => console.error('Error:', error.text()))
   }
 ```
-##### List
+##### LIST
 
 ```js
 var request = require("request");
