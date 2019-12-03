@@ -4,7 +4,7 @@ Lightning Singles is a directory service for channel liquidity matchmaking on th
 
 By default, Singles charges 100 satoshis to verify a post. Posts expire after 3 days.
 
-A mainnet instance is running at `singles.shock.network/api` with a [frontend](https://github.com/shocknet/singles-fe) available at https://Singles.Shock.Network
+~~A mainnet instance is running at `singles.shock.network/api` with a [frontend](https://github.com/shocknet/singles-fe) available at https://Singles.Shock.Network~~ 
 
 ## API
 
